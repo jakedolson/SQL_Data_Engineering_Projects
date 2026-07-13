@@ -19,3 +19,12 @@ LEFT JOIN skills_job_dim AS sjd
 LEFT JOIN skills_dim as sd
     ON sjd.skill_id = sd.skill_id
 LIMIT 10;
+
+SELECT DISTINCT
+    country
+FROM
+    job_postings_fact;
+
+/*
+test edit from remote repo
+*/
