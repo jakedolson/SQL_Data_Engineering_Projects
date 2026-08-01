@@ -1,0 +1,14 @@
+/*
+    git add .   =   adds all edits of existings files to staged changes
+    git commit -m   accepts changes from staged
+    
+*/
+
+
+/*
+    git branch  =   list all local branches
+    git branch branch-name  =   create a new branch
+    git switch branch-name  =   switch to an existing branch
+    git switch -c branch-name   =   create and switch to a new branch in one command
+*/
+
