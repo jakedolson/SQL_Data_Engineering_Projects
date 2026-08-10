@@ -36,3 +36,7 @@ SELECT
     skill_id,job_id
 FROM read_csv('https://storage.googleapis.com/sql_de/skills_job_dim.csv',
     AUTO_DETECT=true);
+
+-- data validation
+
+SELECT COUNT(*) FROM company_dim;
