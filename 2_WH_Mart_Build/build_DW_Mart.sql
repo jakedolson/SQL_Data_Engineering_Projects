@@ -1,3 +1,6 @@
+-- to run script paste in terminal  
+-- duckdb dw_marts.duckdb -c ".read build_DW_Mart.sql"
+
 --Step 1: DW - Create star schema tables
 .read 01_create_tables_dw.sql
 
